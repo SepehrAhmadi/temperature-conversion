@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+    color: white;
+}
+
+h1{
+    color: rgb(255, 166, 0);
+}
+
+#container{
+    background-color: rgb(58, 52, 52);
+    text-align: center;
+    margin: auto;
+    max-width: 35%;
+    padding: 30px 10px;
+    border-radius: 15px;
+    border: 7px solid rgb(255, 166, 0);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.534) ;
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding: 5px 0px;
+    background-color: rgb(230, 230, 230);
+    border: 5px solid rgb(255, 166, 0);
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#toFahrenheit , #toCelsius{
+    font-size: 1.5em;
+}
+
+#radioContainer{
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(162, 1, 1);
+    color: white;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: rgb(202, 4, 4);
+}
+
+#result{
+    font-size: 1.7em;
+    font-weight: bold;
+}
